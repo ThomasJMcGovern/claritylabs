@@ -3,11 +3,23 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Badges } from "./badges"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 export function Hero() {
   const scrollToBuyBox = () => {
     document.getElementById("buy-box")?.scrollIntoView({ behavior: "smooth" })
   }
+
+  const productImages = [
+    { src: "/CLProduct1.png", alt: "ClarityLabs L-Methylfolate bottle with box" },
+    { src: "/CLProduct2.png", alt: "ClarityLabs L-Methylfolate supplement facts" }
+  ]
 
   return (
     <section className="container mx-auto px-4 py-16 md:py-24">
@@ -44,16 +56,26 @@ export function Hero() {
         </div>
 
         <div className="flex justify-center lg:justify-end">
-          <div className="relative">
-            <Image
-              src="/clarity-product-hero.png"
-              alt="ClarityLabs L-Methylfolate Dietary Supplement"
-              width={600}
-              height={600}
-              className="w-full max-w-md h-auto"
-              priority
-            />
-          </div>
+          <Carousel className="w-full max-w-md">
+            <CarouselContent>
+              {productImages.map((image, index) => (
+                <CarouselItem key={index}>
+                  <div className="relative">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={600}
+                      height={600}
+                      className="w-full h-auto"
+                      priority={index === 0}
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-2" />
+            <CarouselNext className="right-2" />
+          </Carousel>
         </div>
       </div>
     </section>

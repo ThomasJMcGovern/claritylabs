@@ -35,7 +35,7 @@ export function StickyMobileCart() {
   if (!isVisible) return null
 
   return (
-    <div className="fixed bottom-2.5 left-0 right-0 z-50 bg-white border-t border-stone-200 p-4 md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-[10000] bg-white border-t border-stone-200 p-4 md:hidden">
       <Button
         onClick={handleAddToCart}
         className="w-full bg-teal hover:bg-teal/90 text-white py-3 text-lg font-semibold"
