@@ -28,7 +28,7 @@ export function BuyBox() {
   }
 
   return (
-    <div id="buy-box" className="lg:sticky lg:top-24">
+    <div id="buy-box" className="lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto">
       <Card className="border-2 border-stone-200 shadow-lg">
         <CardContent className="p-6 space-y-6">
           <div>
