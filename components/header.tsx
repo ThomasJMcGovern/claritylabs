@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export function Header() {
@@ -10,7 +11,16 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-stone-200">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="font-serif font-bold text-xl text-stone-900">ClarityLabs™</div>
+        <div className="flex items-center gap-2">
+          <Image
+            src="/CLFavicon.png"
+            alt="ClarityLabs Logo"
+            width={32}
+            height={32}
+            className="w-8 h-8"
+          />
+          <span className="font-serif font-bold text-xl text-stone-900">ClarityLabs™</span>
+        </div>
 
         <nav className="hidden md:flex items-center space-x-8">
           <button
