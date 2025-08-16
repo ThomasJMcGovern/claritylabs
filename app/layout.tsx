@@ -87,7 +87,7 @@ export default function RootLayout({
         {children}
         <script
           src="https://widget-deploy-hazel.vercel.app/widget.js"
-          data-config='{"theme":"light","borderGradient":{"from":"#00352A","to":"#45A6A5","direction":"to bottom right","backgroundColor":"#ffffff","starGradient":{"from":"#00352A","to":"#45A6A5","direction":"to bottom right"}}}'
+          data-config='{"theme":"light","borderGradient":{"from":"#00352A","to":"#45A6A5","direction":"to bottom right","backgroundColor":"#FFFBEE","starGradient":{"from":"#00352A","to":"#45A6A5","direction":"to bottom right"}}}'
           defer
         ></script>
       </body>
