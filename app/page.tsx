@@ -15,7 +15,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <div className="grid lg:grid-cols-4 gap-8 container mx-auto px-4 py-8">
+        <div className="grid lg:grid-cols-4 gap-8 container mx-auto px-4 pt-2 pb-8 md:py-8">
           <div className="lg:col-span-3">
             <Hero />
           </div>
