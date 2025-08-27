@@ -12,7 +12,7 @@ export function Guarantee() {
                 <Shield className="w-8 h-8 text-teal" />
               </div>
 
-              <h2 className="font-serif font-bold text-2xl md:text-3xl text-stone-900 mb-4">
+              <h2 className="font-bold text-2xl md:text-3xl text-stone-900 mb-4">
                 30-Day Money-Back Guarantee
               </h2>
 

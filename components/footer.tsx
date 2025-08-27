@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="font-serif font-bold text-xl text-white mb-4">ClarityLabs™</div>
+            <div className="font-bold text-xl text-white mb-4">ClarityLabs™</div>
             <p className="text-sm leading-relaxed mb-4">
               Science-backed supplements designed for optimal bioavailability and effectiveness.
             </p>

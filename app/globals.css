@@ -120,7 +120,7 @@
 
   /* Custom font family mappings */
   --font-sans: var(--font-inter);
-  --font-serif: var(--font-spectral);
+  --font-serif: var(--font-inter);
 }
 
 @layer base {

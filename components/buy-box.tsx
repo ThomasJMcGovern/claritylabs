@@ -32,7 +32,7 @@ export function BuyBox() {
       <Card className="border-2 border-stone-200 shadow-lg">
         <CardContent className="p-6 space-y-6">
           <div>
-            <h3 className="font-serif font-semibold text-xl text-stone-900 mb-2">Methyl•15™ — L-Methylfolate 15 mg</h3>
+            <h3 className="font-semibold text-xl text-stone-900 mb-2">Methyl•15™ — L-Methylfolate 15 mg</h3>
             <p className="text-sm text-stone-600">30 capsules • 1 month supply</p>
           </div>
 

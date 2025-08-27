@@ -19,7 +19,7 @@ export function Header() {
             height={32}
             className="w-8 h-8"
           />
-          <span className="font-serif font-bold text-xl text-stone-900">ClarityLabs™</span>
+          <span className="font-bold text-xl text-stone-900">ClarityLabs™</span>
         </div>
 
         <nav className="hidden md:flex items-center space-x-8">

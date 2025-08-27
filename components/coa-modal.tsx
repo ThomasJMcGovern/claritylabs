@@ -38,7 +38,7 @@ export function COAModal({ open, onOpenChange }: COAModalProps) {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl">
         <DialogHeader>
-          <DialogTitle className="font-serif text-2xl">Certificate of Analysis</DialogTitle>
+          <DialogTitle className="font-semibold text-2xl">Certificate of Analysis</DialogTitle>
           <DialogDescription className="text-base">
             Independent third-party testing results for Methyl•15™
           </DialogDescription>

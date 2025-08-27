@@ -17,14 +17,14 @@ export function FactsCard() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-serif font-bold text-3xl md:text-4xl text-stone-900 mb-4">Dose Transparency</h2>
+            <h2 className="font-bold text-3xl md:text-4xl text-stone-900 mb-4">Dose Transparency</h2>
             <p className="text-lg text-stone-600">Every ingredient clearly listed with third-party verification.</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
             <Card className="border-2 border-stone-200">
               <CardHeader className="bg-stone-50">
-                <CardTitle className="text-center font-serif text-xl">Supplement Facts</CardTitle>
+                <CardTitle className="text-center font-semibold text-xl">Supplement Facts</CardTitle>
                 <p className="text-center text-sm text-stone-600">Serving Size: 1 capsule</p>
               </CardHeader>
               <CardContent className="p-6">

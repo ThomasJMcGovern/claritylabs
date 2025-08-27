@@ -39,7 +39,7 @@ export function FAQ() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-serif font-bold text-3xl md:text-4xl text-stone-900 mb-4">
+            <h2 className="font-bold text-3xl md:text-4xl text-stone-900 mb-4">
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-stone-600">Everything you need to know about Methyl•15™</p>

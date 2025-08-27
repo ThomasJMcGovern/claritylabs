@@ -26,7 +26,7 @@ export function Hero() {
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="space-y-8">
           <div className="space-y-6">
-            <h1 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl leading-tight text-stone-900">
+            <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl leading-tight text-stone-900">
               Activated Folate That Works With Your Genes
             </h1>
             <p className="text-lg md:text-xl text-stone-600 leading-relaxed">
